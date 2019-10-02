@@ -12,7 +12,7 @@ public class arrayList {
 		
 		List<Employee> employeeList = new ArrayList<Employee>();
 		
-		//vectoe is synchronized and provides thread safety mechanisam
+		//vector is synchronized and provides thread safety mechanisam
 //		List<Employee> employeeList = new Vector<Employee>();
 
 		employeeList.add(new Employee("Hansraj", "Pabbati", "1234"));
