@@ -2,6 +2,7 @@ package ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 //comment and uncomment code as per the requirement
 public class arrayList {
 
@@ -11,6 +12,9 @@ public class arrayList {
 		
 		List<Employee> employeeList = new ArrayList<Employee>();
 		
+		//vectoe is synchronized and provides thread safety mechanisam
+//		List<Employee> employeeList = new Vector<Employee>();
+
 		employeeList.add(new Employee("Hansraj", "Pabbati", "1234"));
 		employeeList.add(new Employee("John", "Snow", "1235"));
 		employeeList.add(new Employee("Michel", "Jordan", "1236"));
